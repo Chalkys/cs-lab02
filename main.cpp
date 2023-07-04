@@ -17,5 +17,11 @@ int main()
     else {
         cout << "Max is B: " << b << '\n';
     }
+    if (a < b) {
+        cout << "Min is A: " << a << '\n';
+    }
+    else {
+        cout << "Min is B: " << b << '\n';
+    }
     return 0;
 }
